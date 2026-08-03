@@ -1,0 +1,17 @@
+name: adpm
+channels:
+  - conda-forge
+dependencies:
+  - ipykernel>=7,<8
+  - make
+  - pandoc
+  - pre-commit
+  - python>=3.11
+  - matplotlib>=3.9,<4
+  - nbsphinx>=0.9
+  - numpy>=2
+  - ruff
+  - sphinx>=8
+  - sphinxcontrib-spelling
+  - sphinx-rtd-theme
+  - sphinx-lint

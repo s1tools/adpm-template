@@ -1,0 +1,177 @@
+##############
+ Introduction
+##############
+
+
+Purpose and scope
+=================
+
+This document describes the algorithms, and models [Processor Name] to generate
+[Product Name]. It provides the theoretical and technical basis of the
+processing chain, including the definition of inputs and outputs, mathematical
+formulations, processing steps, auxiliary data usage, retrieval and correction
+methods, and associated assumptions and uncertainties evaluation.
+
+
+Document structure
+==================
+
+.. todo:: Use the ``:ref:`` or the ``:doc:`` directive to create cross-links
+
+- :doc:`Chapter 2 <02_processing_model>` gives the top-down processing model
+  and data flow.
+- :doc:`Chapter 3 <03_algorithms>` provides the description of each algorithm,
+  including variable definitions, mathematical formulation, uncertainty and
+  validation.
+- :doc:`Chapter 4 <04_appendices>` contains optional appendices.
+
+
+Applicable and reference documents
+==================================
+
+Applicable documents
+--------------------
+
+.. list-table:: Applicable documents.
+    :header-rows: 1
+    :widths: 15 55 30
+
+    * - ID
+      - Document
+      - Role
+    * - AD-01
+      - [Project SoW / system or product requirements]
+      - Applicable requirement source
+    * - AD-02
+      - ESA-EOPG-EOPGMQ-RS-2023-4, Issue/Revision 1.3
+      - ADPM requirements
+
+
+Reference documents
+-------------------
+
+.. list-table:: Reference documents.
+    :header-rows: 1
+    :widths: 15 55 30
+
+    * - ID
+      - Document
+      - Role
+    * - RD1
+      - `The Python Programming Language <https://www.python.org>`_
+      - Programming language reference
+    * - RD2
+      - `Sphinx Python Documentation Generator <https://www.sphinx-doc.org>`_
+      - Documentation generator reference
+    * - RD3
+      - `Jupyter Project <https://jupyter.org>`_
+      - Interactive scientific-computing framework
+    * - RD4
+      - `QA4EO — A guide to expression of uncertainty of measurements
+        <https://qa4eo.org/docs/QA4EO-QAEO-GEN-DQK-006_v4.0.pdf>`_. Last
+        accessed on 09/06/2026.
+      - Uncertainty guidance
+    * - RD5
+      - `reStructuredText format <https://docutils.sourceforge.io/rst.html>`_
+      - Narrative documentation format
+    * - RD6
+      - `CEOS — Jupyter Notebooks Best Practice, Issue 1.1, 2024
+        <https://ceos.org/document_management/Working_Groups/WGISS/Documents/WGISS%20Best%20Practices/CEOS_JupterNotebooks_Best%20Practice_v1.1.pdf>`_
+      - Notebook guidance
+    * - RD7
+      - [IODD/ICD and configuration schema]
+      - Authoritative interface definitions
+
+
+List of acronyms
+================
+
+.. glossary::
+    :sorted:
+
+    AD
+        Applicable Document
+
+    ADPM
+        Algorithms Description and Processing Model
+
+    ATBD
+        Algorithm Theoretical Baseline Document
+
+    CEM
+        Copernicus Expansion Missions
+
+    DPM
+        Detailed Processing Model
+
+    ESA
+        European Space Agency
+
+    ICD
+        Interface Control Document
+
+    IODD
+        Input Output Description Document
+
+    PM
+        Processing Model
+
+    QA4ECV
+        Quality Assurance for Essential Climate Variables
+
+    RD
+        Reference Document
+
+    SAR
+        Synthetic Aperture Radar
+
+    SoW
+        Statement of Work
+
+    SW
+        Software
+
+    SRD
+        Software Requirements Document
+
+    TN
+        Technical Note
+
+    VDT
+        Variables Description Table
+
+    V&V
+        Verification and Validation
+
+
+Definitions and conventions
+===========================
+
+.. glossary::
+    :sorted:
+
+    Processing step
+        Logical group of operations, possibly divided into sub-steps.
+
+    [Project term]
+        [Definition consistent with the IODD, ICD, code and validation
+        documents.]
+
+        Multi-paragraph definition.
+
+
+List of symbols
+===============
+
+.. list-table:: List of symbols.
+    :header-rows: 1
+    :widths: 25 75
+
+    * - Symbol
+      - Description
+    * - :math:`\lambda`
+      - RADAR wavelength.
+    * - :math:`c`
+      - Speed of light in teh vacuum.
+    * - :math:`...`
+      - Speed of light in teh vacuum.

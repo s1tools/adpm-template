@@ -1,0 +1,4 @@
+include Makefile environment.yml requirements.txt
+recursive-include adpm *.rst *.ipynb Makefile make.bat *.py *.png *.drawio
+
+prune adpm/_build

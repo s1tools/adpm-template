@@ -1,0 +1,39 @@
+
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "adpm-template"
+version = "0.1"
+authors = [
+    {name = "GMQ Team"},
+]
+description = "Template for Algorithm Description and Processing Model documents"
+readme = {file = "README.rst", content-type = "text/x-rst"}
+license = "Apache-2.0"
+license-files = ["LICEN[CS]E*", "AUTHORS.rst"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/s1tools/adpm-template"
+Repository = "https://github.com/s1tools/adpm-template.git"
+Issues = "https://github.com/s1tools/adpm-template/issues"
+
+
+[tool.ruff]
+# Set the maximum line length to 79.
+line-length = 79
+
+
+[tool.ruff.lint]
+# Add the `line-too-long` rule to the enforced rule set. By default, Ruff omits rules that
+# overlap with the use of a formatter, like Black, but we can override this behavior by
+# explicitly adding the rule.
+extend-select = ["E501"]

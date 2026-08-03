@@ -1,0 +1,9 @@
+ipykernel>=7
+matplotlib>=3.9
+nbsphinx>=0.9
+numpy>=2
+pypandoc-binary
+ruff
+sphinx>=8
+sphinx-rtd-theme
+sphinxcontrib-spelling
