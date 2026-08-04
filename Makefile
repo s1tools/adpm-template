@@ -27,7 +27,7 @@ dist:
 clean:
 	$(MAKE) -C adpm $@
 	$(RM) -r adpm/_build
-	$(RM) -r adom_template.*-info
+	$(RM) -r adpm_template.*-info
 	$(RM) -r dist
 	$(RM) -r .ruff_cache/
 
