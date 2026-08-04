@@ -23,7 +23,7 @@ Document structure
 - :doc:`Chapter 3 <03_algorithms>` provides the description of each algorithm,
   including variable definitions, mathematical formulation, uncertainty and
   validation.
-- :doc:`Chapter 4 <04_appendices>` contains optional appendices.
+- :ref:`Appendices <appendices>` contains optional appendices.
 
 
 Applicable and reference documents
