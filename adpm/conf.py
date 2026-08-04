@@ -183,8 +183,13 @@ latex_domain_indices = False
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-the-linkcheck-builder
 
 linkcheck_allowed_redirects = {
-    r"https://sphinx-doc\.org/.*": r"https://sphinx-doc\.org/en/master/.*"
+    r"https://www\.sphinx-doc\.org(/.*)?": r"https://www\.sphinx-doc\.org/en/master(/.*)?",
 }
+linkcheck_ignore = [
+    "https://docutils.sourceforge.io/*",
+    # The following are not accessible via GHA
+    "https://ceos.org/document_management/Working_Groups/WGISS/Documents/WGISS%20Best%20Practices/CEOS_JupterNotebooks_Best%20Practice_v1.1.pdf",
+]
 
 
 # --- sphinx.ext.napoleon ----------------------------------------------------
