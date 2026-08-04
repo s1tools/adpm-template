@@ -110,7 +110,7 @@ example:
 Uncertainty propagation and evaluation
 --------------------------------------
 
-[Uncertainy propagation model description, detailed in dedicated appendices if
+[Uncertainty propagation model description, detailed in dedicated appendices if
 needed.]
 
 
@@ -128,8 +128,8 @@ Numerical implementation
 - Description of possible implementation issues.
 - Analysis of algorithm complexity and possible criticalities in terms of
   computational load and use of system resources.
-- Concurrency: independent blocks, data dependencies, parallelisation strategy,
-  synchronisation requirements, and scalability performance.
+- Concurrency: independent blocks, data dependencies, parallelization strategy,
+  synchronization requirements, and scalability performance.
 - Expected performance.]
 
 Example:

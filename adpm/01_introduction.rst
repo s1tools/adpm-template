@@ -172,6 +172,6 @@ List of symbols
     * - :math:`\lambda`
       - RADAR wavelength.
     * - :math:`c`
-      - Speed of light in teh vacuum.
+      - Speed of light in the vacuum.
     * - :math:`...`
-      - Speed of light in teh vacuum.
+      - TBW

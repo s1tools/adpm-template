@@ -16,7 +16,7 @@ The narrative content is expected to be written in ``reStructuredText``
 
     This template is still under heavy development and subject to changes.
 
-    It is only provided as guideline for teh document organization and the
+    It is only provided as guideline for the document organization and the
     expected sections/contents.
 
     The aspects related to the style and themes shall not be considered as
