@@ -133,8 +133,6 @@ latex_appendices = [
 # Keep only the required distribution marking; all other layout choices are
 # delegated to the selected Sphinx theme.
 latex_elements = {
-    "releasename": "Document",
-    "release": f"ID {doc_id} - Issue {release}",
     "preamble": Template(r"""
 \usepackage{xcolor}
 \usepackage[
