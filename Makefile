@@ -23,6 +23,7 @@ pdf: latexpdf
 
 dist:
 	$(PYTHON) -m build --sdist
+	$(PYTHON) -m twine check dist/adpm_template-*.tar.gz
 
 clean:
 	$(MAKE) -C adpm $@

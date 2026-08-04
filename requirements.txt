@@ -1,3 +1,4 @@
+build
 ipykernel>=7
 matplotlib>=3.9
 nbsphinx>=0.9
@@ -7,3 +8,4 @@ ruff
 sphinx>=8
 sphinx-rtd-theme
 sphinxcontrib-spelling
+twine
