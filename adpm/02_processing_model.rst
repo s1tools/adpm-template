@@ -9,6 +9,7 @@ Overview and top-down decomposition
 processing function, with a bullet list of the main processing steps and their
 corresponding algorithm sections.]
 
+
 End-to-end data flow
 ====================
 
@@ -32,6 +33,7 @@ data-flow and the relations between processing blocks.
 
     Example of a diagram illustrating the relationships between processing
     blocks.
+
 
 Algorithms and processing blocks
 --------------------------------
