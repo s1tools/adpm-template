@@ -29,58 +29,42 @@ Document structure
 Applicable and reference documents
 ==================================
 
-Applicable documents
---------------------
+.. only:: latex
 
-.. list-table:: Applicable documents.
-    :header-rows: 1
-    :widths: 15 55 30
+    Applicable and reference documents can be found th the ``Bibliography``
+    section.
 
-    * - ID
-      - Document
-      - Role
-    * - AD-01
-      - [Project SoW / system or product requirements]
-      - Applicable requirement source
-    * - AD-02
-      - ESA-EOPG-EOPGMQ-RS-2023-4, Issue/Revision 1.3
-      - ADPM requirements
+    Applicable documents are identified by IDs stating with the ``AD`` prefix
+    (e.g. ``[AD01]``), while reference documents are identified by the ``RD``
+    prefix (e.g. ``[RD01]``).
+
+.. only:: not latex
+
+    Applicable documents
+    --------------------
+
+.. [AD1] [Document code] [Project SoW / system or product requirements]
+.. [AD2] ESA-EOPG-EOPGMQ-RS-2023-4, ADPM requirements, Issue/Revision 1.3
 
 
-Reference documents
--------------------
+.. only:: not latex
 
-.. list-table:: Reference documents.
-    :header-rows: 1
-    :widths: 15 55 30
+    Reference documents
+    -------------------
 
-    * - ID
-      - Document
-      - Role
-    * - RD1
-      - `The Python Programming Language <https://www.python.org>`_
-      - Programming language reference
-    * - RD2
-      - `Sphinx Python Documentation Generator <https://www.sphinx-doc.org>`_
-      - Documentation generator reference
-    * - RD3
-      - `Jupyter Project <https://jupyter.org>`_
-      - Interactive scientific-computing framework
-    * - RD4
-      - `QA4EO — A guide to expression of uncertainty of measurements
-        <https://qa4eo.org/docs/QA4EO-QAEO-GEN-DQK-006_v4.0.pdf>`_. Last
-        accessed on 09/06/2026.
-      - Uncertainty guidance
-    * - RD5
-      - `reStructuredText format <https://docutils.sourceforge.io/rst.html>`_
-      - Narrative documentation format
-    * - RD6
-      - `CEOS — Jupyter Notebooks Best Practice, Issue 1.1, 2024
-        <https://ceos.org/document_management/Working_Groups/WGISS/Documents/WGISS%20Best%20Practices/CEOS_JupterNotebooks_Best%20Practice_v1.1.pdf>`_
-      - Notebook guidance
-    * - RD7
-      - [IODD/ICD and configuration schema]
-      - Authoritative interface definitions
+.. [RD1] `The Python Programming Language <https://www.python.org>`_
+
+.. [RD2] `Sphinx Python Documentation Generator <https://www.sphinx-doc.org>`_
+         Documentation generator reference
+.. [RD3] `Jupyter Project <https://jupyter.org>`_
+         Interactive scientific-computing framework
+.. [RD4] `QA4EO — A guide to expression of uncertainty of measurements
+         <https://qa4eo.org/docs/QA4EO-QAEO-GEN-DQK-006_v4.0.pdf>`_.
+         Last accessed on 09/06/2026.
+.. [RD5] `reStructuredText format <https://docutils.sourceforge.io/rst.html>`_
+.. [RD6] `CEOS — Jupyter Notebooks Best Practice, Issue 1.1, 2024
+         <https://ceos.org/document_management/Working_Groups/WGISS/Documents/WGISS%20Best%20Practices/CEOS_JupterNotebooks_Best%20Practice_v1.1.pdf>`_
+.. [RD7] [IODD/ICD and configuration schema]
 
 
 List of acronyms

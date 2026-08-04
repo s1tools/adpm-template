@@ -92,6 +92,7 @@ rst_prolog = f"""
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-warning-control
 
 suppress_warnings = [
+    "ref.citation",
     "nbsphinx",
 ]
 
