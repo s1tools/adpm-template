@@ -28,20 +28,16 @@
 
 .. list-table::
    :header-rows: 1
-   :widths: 30 40 30
+   :widths: 40 60
 
    * - Author(s):
      - Organisation:
-     - 
    * - [Author 1]
-     - [Organisation]\
-     - 
+     - [Organisation]
    * - [Author 2]
      - [Organisation]
-     - 
    * - [Author 3]
      - [Organisation]
-     - 
 
 .. list-table::
    :header-rows: 1
@@ -82,7 +78,7 @@
    * - ...
      - ...
      - ...
-     - ...     
+     - ...
    * - |issue|
      - |date|
      - [Summary of changes]

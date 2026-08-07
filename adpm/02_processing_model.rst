@@ -12,15 +12,16 @@ corresponding algorithm sections.]
 Rationale
 =========
 
-[Processing model rationale, providing justification for the chosen approach, for the inputs selection, and any trade-offs considered (optional)]
+[Processing model rationale, providing justification for the chosen approach,
+for the inputs selection, and any trade-offs considered (optional)]
 
 End-to-end data flow
 ====================
 
 [Diagram illustrating the processing flow, including iterations, conditional
-branches, significant dependencies, complex mathematical sequences or concurrent
-execution, using the same ``STEP``, and ``ALG`` identifiers and providing
-cross-references to the corresponding sections.]
+branches, significant dependencies, complex mathematical sequences or
+concurrent execution, using the same ``STEP``, and ``ALG`` identifiers and
+providing cross-references to the corresponding sections.]
 
 Example:
 
@@ -56,23 +57,23 @@ Processing steps identification:
     * - STEP-001
       - Primary and auxiliary data reading
       - ALG-001
-      - Input products + AUX data → ingested data
+      - Input products and AUX data to ingested data
       - :numref:`%s <alg-001>`
     * - STEP-002
       - Input preparation
       - ALG-002
-      - Ingested data → prepared data
+      - Ingested data to prepared data
       - :numref:`%s <alg-002>`
     * - STEP-003
       - Branch selection and core processing
       - SEL-001; ALG-003 or ALG-004
-      - Prepared data → intermediate result
+      - Prepared data to intermediate result
       - :numref:`%s <control-logic>`; :numref:`%s <alg-003>`; :numref:`%s
         <alg-004>`
     * - STEP-004
       - Output generation
       - ALG-005
-      - Intermediate result → output product
+      - Intermediate result to output product
       - :numref:`%s <alg-005>`
 
 
