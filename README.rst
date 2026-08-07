@@ -125,7 +125,7 @@ limitations under the License.
 To Do
 =====
 
-* [ ] Explore better ways to integrate the Jupyter notebooks within the
-  narrative sections of the document
-* [ ] Provide more/alternative examples for the algorithms description section
-  and its numerical implemetation in form of Jupyter notebooks
+* [ ] Explore more/alternative examples to integrate the Jupyter notebooks
+  within the narrative sections of the document
+* [ ] Provide a more exhaustive example for the algorithms description section
+  and its numerical implementation in form of Jupyter notebooks
