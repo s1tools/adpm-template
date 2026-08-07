@@ -203,6 +203,7 @@ napoleon_numpy_docstring = True
 
 todo_include_todos = True
 
+
 # --- nbsphinx ---------------------------------------------------------------
 # https://nbsphinx.readthedocs.io/en/0.9.8/configuration.html
 
@@ -212,3 +213,9 @@ nbsphinx_execute = "always"
 nbsphinx_allow_errors = False
 nbsphinx_timeout = 120
 nbsphinx_kernel_name = "python3"
+
+
+# --- sphinxcontrb-spelling --------------------------------------------------
+# https://sphinxcontrib-spelling.readthedocs.io/en/latest/customize.html
+
+spelling_lang = "en_US"
