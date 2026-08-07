@@ -1,4 +1,7 @@
+criticalities
+Dimensionality
 Jupyter
 SoW
+Sym
 Todo
 todo
