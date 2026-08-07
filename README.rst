@@ -2,8 +2,6 @@
 ESA-GMQ Algorithms Description and Processing Model (ADPM) document template
 ############################################################################
 
-Template for Algorithms Description and Processing Model (ADPM) documents.
-
 The template exploits `Sphinx <https://www.sphinx-doc.org>`_ documentation
 system.
 The narrative content is expected to be written in ``reStructuredText``
@@ -123,3 +121,9 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
+To Do
+=====
+
+* [ ] Explore better ways to integrate the Jupyter notebooks within the narrative sections of the document
+* [ ] Provide a more exhaustive example for the algorithms description section and its numerical implemetation in form of Jupyter notebooks
