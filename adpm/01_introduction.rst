@@ -20,11 +20,16 @@ Document structure
 
 The document is structured as follows:
 
-- :doc:`Chapter 1 <01_introduction>` provides the purpose and scope, the structure of the document, the applicable and reference documents, and the list of acronyms, definitions, conventions, and symbols.
+- :doc:`Chapter 1 <01_introduction>` provides the purpose and scope, the
+  structure of the document, the applicable and reference documents, and the
+  list of acronyms, definitions, conventions, and symbols.
 
-- :doc:`Chapter 2 <02_processing_model>` gives the top-down processing model and data flow.
+- :doc:`Chapter 2 <02_processing_model>` gives the top-down processing model
+  and data flow.
 
-- :doc:`Chapter 3 <03_algorithms>` provides the description of each algorithm including variable definitions, mathematical formulation, uncertainty and validation.
+- :doc:`Chapter 3 <03_algorithms>` provides the description of each algorithm
+  including variable definitions, mathematical formulation, uncertainty and
+  validation.
 
 - :ref:`Appendices <appendices>` contains optional appendices.
 

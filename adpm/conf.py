@@ -28,7 +28,6 @@ processor = "[Processor]"
 project = f"{processor} - Algorithms Description and Processing Model"
 author = "[Organization / authors]"
 copyright = "[Year, copyrights holder]"
-distribution = "ESA UNCLASSIFIED - Releasable to the Public"
 release = "[Issue / Revision]"
 today = "[YYYY-MM-DD]"
 
@@ -87,7 +86,6 @@ rst_prolog = f"""
 .. |status| replace:: {doc_status}
 .. |processor| replace:: {processor}
 .. |copyright| replace:: {copyright}
-.. |distribution| replace:: {distribution}
 """
 
 # --- Options for warning control --------------------------------------------
@@ -147,15 +145,13 @@ latex_elements = {
 \newcommand{\docID}{${doc_id}}
 \newcommand{\docversion}{${release}}
 \newcommand{\doctitle}{${project}}
-\newcommand{\docdist}{${distribution}}
 
 \fancypagestyle{normal}{
   \fancyhf{}
   \fancyhead[L]{\color{gray}\docID}
   \fancyhead[C]{\color{gray}\doctitle}
   \fancyhead[R]{\color{gray}\docversion}
-  \fancyfoot[L]{\doclicenseImage[imagewidth=1cm]}
-  \fancyfoot[C]{\docdist} 
+  \fancyfoot[C]{\doclicenseImage[imagewidth=2cm]}
   \fancyfoot[R]{\small\thepage}
   \renewcommand{\headrulewidth}{0.0pt}
   \renewcommand{\footrulewidth}{0.0pt}
@@ -165,8 +161,7 @@ latex_elements = {
   \fancyhead[L]{\color{gray}\docID}
   \fancyhead[C]{\color{gray}\doctitle}
   \fancyhead[R]{\color{gray}\docversion}
-  \fancyfoot[L]{\doclicenseImage[imagewidth=1cm]}
-  \fancyfoot[C]{\docdist} 
+  \fancyfoot[C]{\doclicenseImage[imagewidth=2cm]}
   \fancyfoot[R]{\small\thepage}
   \renewcommand{\headrulewidth}{0.0pt}
   \renewcommand{\footrulewidth}{0.0pt}
@@ -177,7 +172,11 @@ latex_elements = {
   \renewcommand{\headrulewidth}{0pt}
   \renewcommand{\footrulewidth}{0pt}
 }
-""").substitute(project=project, doc_id=doc_id, release=release, distribution=distribution),
+""").substitute(
+        project=project,
+        doc_id=doc_id,
+        release=release,
+    ),
 }
 latex_show_urls = "footnote"
 latex_domain_indices = False
