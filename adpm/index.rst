@@ -31,13 +31,13 @@
    :widths: 40 60
 
    * - Author(s):
-     - Organisation:
+     - Organization:
    * - [Author 1]
-     - [Organisation]
+     - [Organization]
    * - [Author 2]
-     - [Organisation]
+     - [Organization]
    * - [Author 3]
-     - [Organisation]
+     - [Organization]
 
 .. list-table::
    :header-rows: 1
@@ -54,10 +54,10 @@
    :header-rows: 1
    :widths: 30 40 30
 
-   * - Authorised by:
+   * - Authorized by:
      - Signature:
      - Date of Approval:
-   * - [Authoriser]
+   * - [Authorizer]
      - [Signature or approval record]
      - [Date]
 
