@@ -21,7 +21,17 @@ repos:
         args: [--max-line-length=80, --enable=all, --ignore=adpm/_build]
 
 -   repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.16.1
+    rev: v0.16.2
     hooks:
       - id: ruff-check
       - id: ruff-format
+
+-   repo: https://github.com/codespell-project/codespell
+    rev: v2.4.3
+    hooks:
+    -   id: codespell
+        additional_dependencies: [tomli]
+        exclude: |
+            (?x)^(
+                adpm/spelling_wordlist.txt
+            )

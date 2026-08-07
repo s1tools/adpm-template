@@ -37,3 +37,10 @@ line-length = 79
 # overlap with the use of a formatter, like Black, but we can override this behavior by
 # explicitly adding the rule.
 extend-select = ["E501"]
+
+
+[tool.codespell]
+skip = "./adpm/_build"
+count = true
+quiet-level = 3
+ignore-words="adpm/spelling_wordlist.txt"
