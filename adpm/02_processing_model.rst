@@ -9,6 +9,10 @@ Overview and top-down decomposition
 processing function, with a bullet list of the main processing steps and their
 corresponding algorithm sections.]
 
+Rationale
+=========
+
+[Processing model rationale, providing justification for the chosen approach, for the inputs selection, and any trade-offs considered (optional)]
 
 End-to-end data flow
 ====================
@@ -62,7 +66,7 @@ Processing steps identification:
     * - STEP-003
       - Branch selection and core processing
       - SEL-001; ALG-003 or ALG-004
-      - Prepared data + incidence angle → intermediate result
+      - Prepared data → intermediate result
       - :numref:`%s <control-logic>`; :numref:`%s <alg-003>`; :numref:`%s
         <alg-004>`
     * - STEP-004
