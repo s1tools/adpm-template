@@ -26,6 +26,7 @@ jobs:
       - name: Install system dependencies
         shell: bash
         run: |
+          sudo apt update
           sudo apt install -y enchant-2 pandoc
           sudo apt install -y \
             dvipng \
