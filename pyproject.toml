@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "adpm-template"
-version = "0.1.0.dev1"
+version = "1.0.0"
 authors = [
     {name = "GMQ Team"},
 ]
