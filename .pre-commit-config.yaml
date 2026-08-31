@@ -21,7 +21,7 @@ repos:
         args: [--max-line-length=80, --enable=all, --ignore=adpm/_build]
 
 -   repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.16.2
+    rev: v0.16.5
     hooks:
       - id: ruff-check
       - id: ruff-format
