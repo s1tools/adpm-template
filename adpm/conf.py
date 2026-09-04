@@ -128,7 +128,7 @@ latex_documents = [
     )
 ]
 latex_appendices = [
-    "A01_appendix_name",
+    "07_appendices/a01_appendix_name",
 ]
 
 # Keep only the required distribution marking; all other layout choices are

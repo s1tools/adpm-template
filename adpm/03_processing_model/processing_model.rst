@@ -30,7 +30,7 @@ data-flow and the relations between processing blocks.
 
 .. _fig-processing-flow:
 
-.. figure:: _images/atbd_diagram_example.png
+.. figure:: images/atbd_diagram_example.png
     :alt: Example of flow-chart which illustrates the relations between
           processing blocks.
     :width: 80%
@@ -55,26 +55,22 @@ Processing steps identification:
       - I/O definition
       - Defined in
     * - STEP-001
-      - Primary and auxiliary data reading
-      - ALG-001
-      - Input products and AUX data to ingested data
-      - :numref:`%s <alg-001>`
+      - [Step name]
+      - ALG-001; ALG-002
+      - [Input to output definition]
+      - :numref:`%s <step-001>`; :numref:`%s <alg-001>`; :numref:`%s
+        <alg-002>`
     * - STEP-002
-      - Input preparation
-      - ALG-002
-      - Ingested data to prepared data
-      - :numref:`%s <alg-002>`
-    * - STEP-003
-      - Branch selection and core processing
+      - [Step name]
       - SEL-001; ALG-003 or ALG-004
-      - Prepared data to intermediate result
-      - :numref:`%s <control-logic>`; :numref:`%s <alg-003>`; :numref:`%s
-        <alg-004>`
-    * - STEP-004
-      - Output generation
+      - [Input to output definition]
+      - :numref:`%s <step-002>`; :numref:`%s <control-logic>`; :numref:`%s
+        <alg-003>`; :numref:`%s <alg-004>`
+    * - STEP-003
+      - [Step name]
       - ALG-005
-      - Intermediate result to output product
-      - :numref:`%s <alg-005>`
+      - [Input to output definition]
+      - :numref:`%s <step-003>`; :numref:`%s <alg-005>`
 
 
 .. _control-logic:

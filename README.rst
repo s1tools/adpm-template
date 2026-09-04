@@ -83,26 +83,42 @@ Source structure
 
 ::
 
-   adpm
-   ├── 01_introduction.rst
-   ├── 02_processing_model.rst
-   ├── 03_algorithms.rst
-   ├── 04_appendices.rst
-   ├── Makefile
-   ├── _images
-   │   ├── atbd_diagram_example.drawio
-   │   └── atbd_diagram_example.png
-   ├── _static
-   ├── alg-01-algname.rst
-   ├── alg-02-algname.rst
-   ├── ...
+   adpm/
+   ├── 01_introduction/
+   │   └── introduction.rst
+   ├── 02_state_of_the_art/
+   │   └── state_of_the_art.rst
+   ├── 03_processing_model/
+   │   ├── processing_model.rst
+   │   └── images/
+   │       ├── atbd_diagram_example.drawio
+   │       └── atbd_diagram_example.png
+   ├── 04_step_01_stepname/
+   │   ├── stepname.rst
+   │   ├── alg_01_algname/
+   │   │   ├── algname.rst
+   │   │   ├── approximation_example.ipynb
+   │   │   └── numerical_implementation.ipynb
+   │   └── alg_02_algname/
+   │       └── algname.rst
+   ├── 05_step_02_stepname/
+   │   ├── stepname.rst
+   │   ├── alg_03_algname/
+   │   │   └── algname.rst
+   │   └── alg_04_algname/
+   │       └── algname.rst
+   ├── 06_step_03_stepname/
+   │   ├── stepname.rst
+   │   └── alg_05_algname/
+   │       └── algname.rst
+   ├── 07_appendices/
+   │   ├── appendices.rst
+   │   └── a01_appendix_name.rst
+   ├── _static/
    ├── conf.py
    ├── index.rst
-   ├── make.bat
-   └── notebooks
-      ├── alg-001_[...].ipynb
-      ├── alg-001_[...].ipynb
-      └── ...
+   ├── Makefile
+   └── make.bat
 
 
 License

@@ -104,7 +104,7 @@ example:
 .. toctree::
     :maxdepth: 4
 
-    notebooks/alg-001_approximation_example
+    approximation_example
 
 
 Uncertainty propagation and evaluation
@@ -151,10 +151,10 @@ generated over :math:`[0,x_i]` and:
 .. toctree::
     :maxdepth: 4
 
-    notebooks/alg-001_numerical_implementation
+    numerical_implementation
 
 See also the
-:download:`the ALG-001 demonstrator <notebooks/alg-001_numerical_implementation.ipynb>`
+:download:`the ALG-001 demonstrator <numerical_implementation.ipynb>`
 Jupyter Notebook for a demonstration of the numerical implementation.
 
 
