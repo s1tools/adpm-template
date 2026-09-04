@@ -95,7 +95,10 @@
     :numbered: 4
     :caption: Contents
 
-    01_introduction
-    02_processing_model
-    03_algorithms
-    04_appendices
+    01_introduction/introduction
+    02_state_of_the_art/state_of_the_art
+    03_processing_model/processing_model
+    04_step_01_stepname/stepname
+    05_step_02_stepname/stepname
+    06_step_03_stepname/stepname
+    07_appendices/appendices

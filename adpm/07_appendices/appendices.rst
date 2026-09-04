@@ -13,4 +13,4 @@
     .. toctree::
         :maxdepth: 4
 
-        A01_appendix_name
+        a01_appendix_name
