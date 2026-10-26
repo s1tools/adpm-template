@@ -88,8 +88,8 @@ example:
 
 ``SEL-001`` selects the processing branch according to the incidence angle. If
 the incidence angle is greater than the configurable threshold
-``inc_angle_threshold`` (default: ``40 deg`` TBC, ADPM-TBC-001), the
-alternative solution
+``inc_angle_threshold`` (default: ``40 deg`` TBC,
+:ref:`ADPM-TBC-001 <list-of-tbc-tbd>`), the alternative solution
 ``ALG-004`` is executed; otherwise, the baseline solution ``ALG-003`` is used.
 
 [The threshold shall be reported in the inputs table and traced to the
