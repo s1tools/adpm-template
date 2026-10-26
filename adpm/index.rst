@@ -4,7 +4,9 @@
 
 .. note::
 
-    This is a starter template. Replace bracketed text.
+    This is a starter template. Replace bracketed text. You are welcome to
+    update and customize the visual appearance of this template, including the
+    addition of logos for the project and the teams involved.
 
 .. list-table::
     :widths: 30 70
@@ -24,6 +26,7 @@
     - - Distribution and license
       - `CC BY 4.0 <https://creativecommons.org/licenses/by/4.0>`_
 
+
 .. rubric:: Authors and Approval
 
 .. list-table::
@@ -39,6 +42,7 @@
    * - [Author 3]
      - [Organization]
 
+
 .. list-table::
    :header-rows: 1
    :widths: 30 40 30
@@ -50,6 +54,7 @@
      - [Signature or approval record]
      - [Date]
 
+
 .. list-table::
    :header-rows: 1
    :widths: 30 40 30
@@ -60,6 +65,7 @@
    * - [Authorizer]
      - [Signature or approval record]
      - [Date]
+
 
 .. rubric:: Change Records
 
@@ -84,6 +90,7 @@
      - [Summary of changes]
      - [Author]
 
+
 .. only:: html
 
     The document structure and numbering are defined by the Sphinx ``toctree``
@@ -101,4 +108,5 @@
     04_step_01_stepname/stepname
     05_step_02_stepname/stepname
     06_step_03_stepname/stepname
-    07_appendices/appendices
+    07_tbc_tbd/tbc_tbd
+    08_appendices/appendices
