@@ -4,15 +4,16 @@
  List of TBC/TBD
 ###################
 
+.. note::
+  This list shall be included in intermediate deliveries only. All TBC/TBD items
+  shall be resolved, and the table removed, for the final version of the
+  document.
+
 [List all open items that are To Be Confirmed (TBC) or To Be Defined (TBD).
 Assign a unique ID to each item, identify the affected element (e.g., variable,
 algorithm step), provide a brief description of the item, and specify the
 milestone for its resolution. An example is provided in the first row of the
-table. Update the list as items are resolved.
-
-**This list shall be included in intermediate deliveries only. All TBC/TBD items
-shall be resolved, and the table removed, for the final version of the
-document.**]
+table. Update the list as items are resolved.]
 
 .. list-table::
     :header-rows: 1
