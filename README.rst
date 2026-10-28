@@ -111,11 +111,10 @@ Source structure
    │   ├── stepname.rst
    │   └── alg_05_algname/
    │       └── algname.rst
-   ├── 07_tbc_tbd/
-   │   └── tbc_tbd.rst
-   ├── 08_appendices/
+   ├── 07_appendices/
    │   ├── appendices.rst
-   │   └── a01_appendix_name.rst
+   │   ├── a01_appendix_name.rst
+   │   └── a02_tbc_tbd.rst
    ├── _static/
    ├── conf.py
    ├── index.rst

@@ -108,5 +108,4 @@
     04_step_01_stepname/stepname
     05_step_02_stepname/stepname
     06_step_03_stepname/stepname
-    07_tbc_tbd/tbc_tbd
-    08_appendices/appendices
+    07_appendices/appendices

@@ -128,7 +128,8 @@ latex_documents = [
     )
 ]
 latex_appendices = [
-    "08_appendices/a01_appendix_name",
+    "07_appendices/a01_appendix_name",
+    "07_appendices/a02_tbc_tbd",
 ]
 
 # Customize distribution markings and table font size; other layout choices
