@@ -139,6 +139,11 @@ latex_elements = {
 \usepackage{xcolor}
 \usepackage{etoolbox}
 
+% Remove italics formatting from hyperlinks.
+\renewcommand{\sphinxcrossref}[1]{\textup{#1}}
+\renewcommand{\sphinxtermref}[1]{\textup{#1}}
+\renewcommand{\sphinxsamedocref}[1]{\textup{#1}}
+
 % Sphinx table hooks run inside a local savenotes group, keeping the font
 % change scoped to each table, including tables spanning multiple pages.
 % Keep the original font size in the front matter and chapter 1 (Introduction).

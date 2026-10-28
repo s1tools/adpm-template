@@ -131,6 +131,12 @@ List of acronyms
     SRD
         Software Requirements Document
 
+    TBC
+        To Be Confirmed
+
+    TBD
+        To Be Defined
+
     TN
         Technical Note
 
