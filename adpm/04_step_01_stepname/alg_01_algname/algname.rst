@@ -8,18 +8,18 @@ Overview
 
 [Objective or purpose of the algorithm, rationale for the selected method and
 the specifications it supports. Comparison analysis of different methods and
-trade-offs, including rationale of the choice, to be provided in a separate TN
-or justification file when relevant.]
+trade-offs, including rationale of the choice, to be provided in a separate
+:term:`TN` or justification file when relevant.]
 
 
 Inputs and outputs
 ------------------
 
-[VDT containing all the inputs, outputs, physical constants, parameters and
-variables used in the algorithm. The VDT shall be self-contained, with all the
-relevant information to understand the algorithm, including the origin and
-destination of each variable, and the reference to the corresponding processing
-block or product.]
+[:term:`VDT` containing all the inputs, outputs, physical constants, parameters
+and variables used in the algorithm. The :term:`VDT` shall be self-contained,
+with all the relevant information to understand the algorithm, including the
+origin and destination of each variable, and the reference to the corresponding
+processing block or product.]
 
 .. list-table:: ALG-001 Variable Description Table (VDT).
     :header-rows: 1

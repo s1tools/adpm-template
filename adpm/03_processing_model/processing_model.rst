@@ -56,19 +56,19 @@ Processing steps identification:
       - Defined in
     * - STEP-001
       - [Step name]
-      - ALG-001; ALG-002
+      - :ref:`ALG-001 <alg-001>`; :ref:`ALG-002 <alg-002>`
       - [Input to output definition]
       - :numref:`%s <step-001>`; :numref:`%s <alg-001>`; :numref:`%s
         <alg-002>`
     * - STEP-002
       - [Step name]
-      - SEL-001; ALG-003 or ALG-004
+      - SEL-001; :ref:`ALG-003 <alg-003>` or :ref:`ALG-004 <alg-004>`
       - [Input to output definition]
       - :numref:`%s <step-002>`; :numref:`%s <control-logic>`; :numref:`%s
         <alg-003>`; :numref:`%s <alg-004>`
     * - STEP-003
       - [Step name]
-      - ALG-005
+      - :ref:`ALG-005 <alg-005>`
       - [Input to output definition]
       - :numref:`%s <step-003>`; :numref:`%s <alg-005>`
 
@@ -90,7 +90,8 @@ example:
 the incidence angle is greater than the configurable threshold
 ``inc_angle_threshold`` (default: ``40 deg`` TBC,
 :ref:`ADPM-TBC-001 <list-of-tbc-tbd>`), the alternative solution
-``ALG-004`` is executed; otherwise, the baseline solution ``ALG-003`` is used.
+:ref:`ALG-004 <alg-004>` is executed; otherwise, the baseline solution
+:ref:`ALG-003 <alg-003>` is used.
 
 [The threshold shall be reported in the inputs table and traced to the
 applicable configuration file document.]
