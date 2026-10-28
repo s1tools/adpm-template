@@ -129,13 +129,30 @@ latex_documents = [
 ]
 latex_appendices = [
     "07_appendices/a01_appendix_name",
+    "07_appendices/a02_tbc_tbd",
 ]
 
-# Keep only the required distribution marking; all other layout choices are
-# delegated to the selected Sphinx theme.
+# Customize distribution markings and table font size; other layout choices
+# are delegated to the selected Sphinx theme.
 latex_elements = {
     "preamble": Template(r"""
 \usepackage{xcolor}
+\usepackage{etoolbox}
+
+% Sphinx table hooks run inside a local savenotes group, keeping the font
+% change scoped to each table, including tables spanning multiple pages.
+% Keep the original font size in the front matter and chapter 1 (Introduction).
+% The howto theme uses sections in place of chapters.
+\newcommand{\adpmTableFont}{%
+  \ifcsname c@chapter\endcsname
+    \ifnum\value{chapter}<2\relax\else\scriptsize\fi
+  \else
+    \ifnum\value{section}<2\relax\else\scriptsize\fi
+  \fi
+}
+\pretocmd{\sphinxattablestart}{\adpmTableFont}{}{}
+\pretocmd{\sphinxatlongtablestart}{\adpmTableFont}{}{}
+
 \usepackage[
     type={CC},
     modifier={by},
