@@ -139,7 +139,7 @@ latex_elements = {
 \usepackage{xcolor}
 \usepackage{etoolbox}
 
-% Keep cross-reference text upright while preserving hyperlinks.
+% Remove italics formatting from hyperlinks.
 \renewcommand{\sphinxcrossref}[1]{\textup{#1}}
 \renewcommand{\sphinxtermref}[1]{\textup{#1}}
 \renewcommand{\sphinxsamedocref}[1]{\textup{#1}}
